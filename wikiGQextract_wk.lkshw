@@ -1,0 +1,10 @@
+Version of workspace file format:
+               1
+Time of storage:
+               "Mon May 11 22:20:56 EEST 2015"
+Name of the workspace:
+               "wikiGQextract_wk"
+File paths of contained packages:
+               ["wikiGQextract.cabal"]
+Maybe file path of an active package:
+               Just "wikiGQextract.cabal"
