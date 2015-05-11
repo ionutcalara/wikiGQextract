@@ -12,6 +12,8 @@
 * There some links used for CRUD operations
 * There are personalities as well as common words, which make the uppercase/lowercase issue complicated. There is no viable solution, so keywords collected will be implemented as is, or we could drop any words preceeded by a point. In that way no keywords would be mistaken. 
 * Given the fact that a lot of words work in different areas there may be a lot of ambiguity. To avoid that, we also use the title.
+
+
 ----------------------------------------
 
 #### Css Tags used to gather needed keywords
