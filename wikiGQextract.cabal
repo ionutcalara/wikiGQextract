@@ -4,14 +4,14 @@ cabal-version: ==1.2
 build-type: Simple
 license: AllRightsReserved
 license-file: ""
-description:  
 data-dir: ""
  
 executable wikiGQextract
-    build-depends: QuickCheck -any, base -any
+    build-depends: hxt >=9.3.1.15 && <9.4, QuickCheck -any, base -any
     main-is: Main.hs
     buildable: True
     hs-source-dirs: src
+    other-modules: TestinGunit
  
 test-suite test-wikiGQextract
     build-depends: QuickCheck -any, base -any
