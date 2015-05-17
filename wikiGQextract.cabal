@@ -7,11 +7,11 @@ license-file: ""
 data-dir: ""
  
 executable wikiGQextract
-    build-depends: hxt >=9.3.1.15 && <9.4, QuickCheck -any, base -any
+    build-depends: hxt >=9.3.1.15 && <9.4,random, text, MissingH, random-fu, HandsomeSoup, random-source, random-extras , QuickCheck -any, base -any
     main-is: Main.hs
     buildable: True
     hs-source-dirs: src
-    other-modules: TestinGunit
+    other-modules:
  
 test-suite test-wikiGQextract
     build-depends: QuickCheck -any, base -any

@@ -1,0 +1,22 @@
+name: wikiGQextract
+version: 0.0.1
+cabal-version: ==1.2
+build-type: Simple
+license: AllRightsReserved
+license-file: ""
+data-dir: ""
+ 
+executable wikiGQextract
+    build-depends: hxt >=9.3.1.15 && <9.4, text, MissingH, random-fu, HandsomeSoup, random-source, random-extras , QuickCheck -any, base -any
+    main-is: Main.hs
+    buildable: True
+    hs-source-dirs: src
+    other-modules:
+ 
+test-suite test-wikiGQextract
+    build-depends: QuickCheck -any, base -any
+    type: exitcode-stdio-1.0
+    main-is: Main.hs
+    buildable: True
+    cpp-options: -DMAIN_FUNCTION=testMain
+    hs-source-dirs: src
