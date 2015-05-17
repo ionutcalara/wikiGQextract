@@ -29,11 +29,10 @@
 
 #### Questions templates
 
-1. What do you think about %s -- applies to 1-3,4
-2. Do you know what %s means in regards of %s ? ---|works for 1-3| only 4
-3. What can you tell about %s -- applies to 1-3,4
-4. Can you briefly elaborate on the topic of %s in regards of %s --|works for 1-3| only 4
-5. What aspects of %s are you familliar with ? works for 1-4
-6. What knowledge do you have regarding %s in the context of %s  -- works from 1-3|4
-7. Please describe %s from your understanding in the context of %s  -- works from 1-3|4
+1. Do you know what %s means in regards of %s ? ---|works for 1-3| only 4
+2. What can you tell about %s -- applies to 1-3,4
+3. Can you briefly elaborate on the topic of %s in regards of %s --|works for 1-3| only 4
+4. What aspects of %s are you familliar with ? works for 1-4
+5. What knowledge do you have regarding %s in the context of %s  -- works from 1-3|4
+6. Please describe %s from your understanding in the context of %s  -- works from 1-3|4
 
